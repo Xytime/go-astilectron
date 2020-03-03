@@ -23,6 +23,7 @@ var (
 		"darwin":  true,
 		"linux":   true,
 		"windows": true,
+		"freebsd": true,
 	}
 )
 
