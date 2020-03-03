@@ -128,6 +128,8 @@ func ElectronDownloadSrc(os, arch, versionElectron string) string {
 		o = "linux"
 	case "windows":
 		o = "win32"
+	case "freebsd":
+		panic("If you'd like to support FreeBSD, embed it in your binary.")
 	}
 
 	// Get arch name
