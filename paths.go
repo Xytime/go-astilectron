@@ -154,6 +154,8 @@ func (p *Paths) initAppExecutable(os, appName string) {
 		p.appExecutable = filepath.Join(p.electronDirectory, "electron")
 	case "windows":
 		p.appExecutable = filepath.Join(p.electronDirectory, "electron.exe")
+	case "freebsd":
+		p.appExecutable = filepath.Join(p.electronDirectory, "electron")
 	}
 }
 
